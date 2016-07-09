@@ -112,7 +112,9 @@ function ElizaBot(noRandomFlag) {
 		     "goto you"
 		  ]]
 		]],
+//na morji
 		["forget", 5, [
+//na morji (2)
 		 ["* i forget *", [
 		     "Can you think of why you might forget (2) ?",
 		     "Why can't you remember (2) ?",
@@ -122,6 +124,7 @@ function ElizaBot(noRandomFlag) {
 		     "Are you generally forgetful ?",
 		     "Do you think you are suppressing (2) ?"
 		  ]],
+//xu do ca na morji (2), xu do co'u/ba'o morji (2)
 		 ["* did you forget *", [
 		     "Why do you ask ?",
 		     "Are you sure you told me ?",
@@ -131,7 +134,9 @@ function ElizaBot(noRandomFlag) {
 		     "Tell me more about (2)."
 		  ]]
 		]],
+//ga naii, fau 
 		["if", 3, [
+//ganai (no "lo nu" 2), fau lo nu
 		 ["* if *", [
 		     "Do you think it's likely that (2) ?",
 		     "Do you wish that (2) ?",
@@ -142,7 +147,9 @@ function ElizaBot(noRandomFlag) {
 		     "What does this speculation lead to ?"
 		  ]]
 		]],
+//senva, jinvi, pensi
 		["dreamed", 4, [
+//senva, jinvi, pensi
 		 ["* i dreamed *", [
 		     "Really, (2) ?",
 		     "Have you ever fantasized (2) while you were awake ?",

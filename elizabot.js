@@ -87,7 +87,7 @@ function ElizaBot(noRandomFlag) {
 		]],
 //morji, vedli, ba'a nai
 		["remember", 5, [
-//ba'a nai, mi morji, mi vedli			
+//ba'a nai, mi morji [lo du'u], mi vedli [lo du'u]
 		 ["* i remember *", [
 		     "Do you often think of (2) ?",
 		     "Does thinking of (2) bring anything else to mind ?",
@@ -97,7 +97,7 @@ function ElizaBot(noRandomFlag) {
 		     "What is the connection between me and (2) ?",
 		     "What else does (2) remind you of ?"
 		  ]],
-//xu do morji, ke'u, xu do vedli, ba'a nai pei
+//xu do morji (2), ke'u, xu do vedli (2), ba'a nai pei (2)
 ["* do you remember *", [
 		     "Did you think I would forget (2) ?",
 		     "Why do you think I should recall (2) now ?",
@@ -105,6 +105,7 @@ function ElizaBot(noRandomFlag) {
 		     "goto what",
 		     "You mentioned (2) ?"
 		  ]],
+//do morji (2), ke'u, do vedli (2), ba'a nai dai (2)
 		 ["* you remember *", [
 		     "How could I forget (2) ?",
 		     "What about (2) should I remember ?",

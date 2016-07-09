@@ -20,7 +20,7 @@ exports.bye = function () {
 }
 
 function ElizaBot(noRandomFlag) {
-
+//start
 	this.elizaInitials = [
 		"How do you do.  Please tell me your problem.",
 		"Please tell me what's been bothering you.",
@@ -48,7 +48,7 @@ function ElizaBot(noRandomFlag) {
 	    ]]
 	  ]]
 	*/
-
+//fallback
 		["xnone", 0, [
 		 ["*", [
 		     "I'm not sure I understand you fully.",
@@ -69,6 +69,7 @@ function ElizaBot(noRandomFlag) {
 		     "I see. How does that make you feel ?"
 		  ]]
 		]],
+//u'u, ko fraxu mi, ko mi fraxu, oi se'i
 		["sorry", 0, [
 		 ["*", [
 		     "Please don't apologize.",
@@ -84,7 +85,9 @@ function ElizaBot(noRandomFlag) {
 		     "goto sorry"
 		  ]]
 		]],
+//morji, vedli, ba'a nai
 		["remember", 5, [
+//ba'a nai, mi morji, mi vedli			
 		 ["* i remember *", [
 		     "Do you often think of (2) ?",
 		     "Does thinking of (2) bring anything else to mind ?",
@@ -94,7 +97,8 @@ function ElizaBot(noRandomFlag) {
 		     "What is the connection between me and (2) ?",
 		     "What else does (2) remind you of ?"
 		  ]],
-		 ["* do you remember *", [
+//xu do morji, ke'u, xu do vedli, ba'a nai pei
+["* do you remember *", [
 		     "Did you think I would forget (2) ?",
 		     "Why do you think I should recall (2) now ?",
 		     "What about (2) ?",
